@@ -6,6 +6,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.ahmadfariz.sqlite.dashboard.Kalkulator;
+import com.ahmadfariz.sqlite.dashboard.Konversi;
+import com.ahmadfariz.sqlite.dashboard.Kopi;
+import com.ahmadfariz.sqlite.dashboard.Kuis;
+import com.ahmadfariz.sqlite.dashboard.Rate;
+import com.ahmadfariz.sqlite.dashboard.Transisi;
+
 public class Dashboard extends AppCompatActivity {
 
     @Override
@@ -37,5 +44,10 @@ public class Dashboard extends AppCompatActivity {
     public void kuis(View view) {
         Intent kuis= new Intent(Dashboard.this, Kuis.class);
         startActivity(kuis);
+    }
+
+    public void kalkulator(View view) {
+        Intent kalkulator= new Intent(Dashboard.this, Kalkulator.class);
+        startActivity(kalkulator);
     }
 }

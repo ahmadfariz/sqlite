@@ -1,4 +1,4 @@
-package com.ahmadfariz.sqlite;
+package com.ahmadfariz.sqlite.dashboard;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import com.ahmadfariz.sqlite.R;
 
 public class Transisi extends AppCompatActivity {
 

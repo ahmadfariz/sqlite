@@ -1,4 +1,4 @@
-package com.ahmadfariz.sqlite;
+package com.ahmadfariz.sqlite.dashboard;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
+
+import com.ahmadfariz.sqlite.R;
 
 public class Kuis extends AppCompatActivity {
 

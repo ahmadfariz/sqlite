@@ -1,4 +1,4 @@
-package com.ahmadfariz.sqlite;
+package com.ahmadfariz.sqlite.dashboard;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.ahmadfariz.sqlite.R;
 
 import java.text.NumberFormat;
 import java.util.Locale;

@@ -8,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:background="#BC8F8F"
-    tools:context=".Rate">
+    tools:context=".dashboard.Rate">
 
     <ImageView
         android:layout_width="400dp"

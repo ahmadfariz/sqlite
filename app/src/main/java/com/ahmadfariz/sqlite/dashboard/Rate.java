@@ -1,8 +1,10 @@
-package com.ahmadfariz.sqlite;
+package com.ahmadfariz.sqlite.dashboard;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.ahmadfariz.sqlite.R;
 
 public class Rate extends AppCompatActivity {
 
